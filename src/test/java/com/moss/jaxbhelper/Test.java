@@ -53,7 +53,7 @@ public class Test extends TestCase {
 			root.add(new Child("Child " + x, x * 2));
 		}
 		
-		String expected = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"+
+		String expected = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"+
 "<root>\n"+
 "    <children name=\"Child 0\" age=\"0\"/>\n"+
 "    <children name=\"Child 1\" age=\"2\"/>\n"+
